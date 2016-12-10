@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_menu_item"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space_16"
+        android:background="@color/colorPrimary"
+        android:text="Test"
+        android:textSize="@dimen/space_16"
+        android:textColor="@android:color/white"
+        />
+
+
+    <ImageView
+        android:id="@+id/iv_chevron"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/space_16"
+        android:src="@drawable/ic_keyboard_arrow_up_black_24dp"
+        />
+
+    <View
+        android:layout_below="@id/tv_menu_item"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+</RelativeLayout>

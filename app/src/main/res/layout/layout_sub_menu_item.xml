@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_sub_menu_item"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
+        android:text="Test"
+        android:textSize="@dimen/space_16"
+        android:paddingLeft="@dimen/space_25"
+        android:paddingTop="@dimen/space_16"
+        android:paddingRight="@dimen/space_16"
+        android:paddingBottom="@dimen/space_16"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <View
+        android:layout_below="@id/tv_sub_menu_item"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+
+</RelativeLayout>

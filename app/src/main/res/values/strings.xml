@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PHCRD</string>
+    <string name="news">News</string>
+    <string name="programs">Programs</string>
+    <string name="publications">Publications</string>
+    <string name="act_regulation">Act/Regulations</string>
+    <string name="reports">Reports</string>
+    <string name="forms_formats">Forms/Formats</string>
+    <string name="organogram">Organogram</string>
+    <string name="staff_info">Staff Info</string>
+    <string name="photo_gallery">Photo Gallery</string>
+    <string name="downloads">Downloads</string>
+    <string name="director_message">Director\'s Message</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="loading">Loading...</string>
+    <string name="sn">SN</string>
+    <string name="particulars">PARTICULARS</string>
+    <string name="publi_1">Revitalizing Primary Health Care: Country Experience</string>
+
+</resources>
